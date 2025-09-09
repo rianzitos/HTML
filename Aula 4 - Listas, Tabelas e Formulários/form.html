@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <style>
+        header{
+            text-align: center;
+            border:3px solid black ;
+            padding: 5px;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+
+        main{
+            text-align: center;
+            border: solid 3px black;
+            background-color: #C8D9E6
+            ;
+            margin-right: 500px;
+            margin-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Formulário de Inscrição</h1>
+    </header>
+    <br>
+    <main>
+    <form action="cadastro.php" method="post">
+                <p><label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu Nome Completo" required>
+                </p>
+                <p><label>E-mail:</label>
+                    <input type="email" name="email" placeholder="Digite seu Email" required>
+                </p>
+                <p>
+                    <labeL>País:</labeL>
+                    <select name="DDD">
+                        <option value="brasil"> 🇧🇷 +55</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                    </select>
+                <label>Telefone:</label>
+                    <input type="text" name="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(99) 99999-9999" required title="Use o formato: (99) 99999-9999">
+                </p>
+                <p><label>CPF:</label>
+                    <input type="text" name="cpf" pattern="[0-9]{3}. [0-9]{3}. [0-9]{3}-[0-9]{2}" placeholder="999.999.999-99" required title="Use o formato: 999.999.999-99">
+                </p>
+                <p><label>Data de Nascimento:</label>
+                    <input type="text" name="data" pattern="\[0-9]{2}\/ \[0-9]{2}\/ \[0-9]{4}" placeholder="XX/XX/XXXX" required title="Use o formato: XX/XX/XXXX">
+                </p>
+                <p><label>Gênero:</label>
+                    <input type="radio" name="genero" value="M">Masculino
+                    <input type="radio" name="genero" value="F">Feminino
+                </p>
+                <p><label>Idiomas de Interesses:</label>
+                    <input type="checkbox" name="interesses" value="ingles" >Inglês
+                    <input type="checkbox" name="interesses" value="espanhol">Espanhol
+                    <input type="checkbox" name="interesses" value="frances">Francês
+                </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+    </form>
+    </main>
+</body>
+</html>
