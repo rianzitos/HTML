@@ -1,0 +1,56 @@
+/* .classe = Reutilizável em vários elementos. */
+
+/* #id = Único, para um elemento específico. */
+
+/* tag = Altera todos os elemntos daquela tag. */
+
+/* * = Aplica a todos os elementos. */
+
+/* h1, h2, h3 = Agrupamentos de seletores */
+
+
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+.destaque {
+    color:blue;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    color: red;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    color: purple;
+    text-align: center;
+    font-size: 20px;
+    line-height: 5;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+img {
+    width: 400px;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: circle;
+}
