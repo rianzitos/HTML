@@ -1,0 +1,114 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-borrado-colorido_1035-3289.jpg);
+    background-size:cover;
+}
+
+header {
+    border: solid purple 2px;
+    background-color: lightgray;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 20px;
+    
+}
+
+main {
+    border: solid purple 3px;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: left;
+    margin-right: 900px;
+    padding: 10px;
+}
+b {
+    font-size: 25px;
+
+}
+section{
+    border: solid purple 3px;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: left;
+    margin-right: 900px;
+    padding: 20px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.item{
+    float: left;
+}
+.item2{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+#texto1 {
+    font-size: 25px;
+    font-style: oblique;
+}
+ul{
+    font-size: 20px;
+    list-style-type: square;
+}
+#menu2{
+    margin: -8px;
+}
+.link:link {
+    color:blue;
+    text-decoration: none;
+}
+.link:hover {
+    color:red;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.link:active {
+    color: orange;
+    text-decoration: none;
+}
+
+#links {
+    border: solid purple 3px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-right: 900px;
+    padding: 20px;
+    font-size: 21px;
+    text-align: left;
+}
+#textolink{
+    font-size: 30px;
+}  
+#video{
+    text-align: center;
+    border: solid purple;
+    background-color: lightgray;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+footer{
+    border: solid purple 3px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-right: 900px;
+    padding: 20px;
+}
+
+.imagem{
+    width: 90px;
+    height: 110px;
+}
